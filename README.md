@@ -3,7 +3,7 @@
 ## Usage
 ### Step 1
 `
-$ npm install https://github.com/Pham-Gia-Huong/html-to-canvas.
+$ npm install https://github.com/Pham-Gia-Huong/html-to-canvas
 `
 ### Step 2 
 ```
