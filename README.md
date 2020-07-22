@@ -8,14 +8,17 @@ $ npm install https://github.com/Pham-Gia-Huong/html-to-canvas.
 ### Step 2 
 `
 import {htmlToCanvas} from 'html-to-canvas';
+
 document.addEventListener('DOMContentLoaded', async () => {
-  let div = document.createElement("div") as HTMLElement;
+
+  let div = document.createElement("div") as HTMLElement;</br>
   div.textContent = "example";
 
   document.body.appendChild(div);
 
-  const canvas = htmlToCanvas(div);
+  const canvas = htmlToCanvas(div);</br>
   document.body.appendChild(canvas);
+  
 });
 
 `
