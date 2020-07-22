@@ -6,7 +6,7 @@
 $ npm install https://github.com/Pham-Gia-Huong/html-to-canvas.
 `
 ### Step 2 
-`
+```
 import {htmlToCanvas} from 'html-to-canvas';
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   
 });
 
-`
+```
 
 ## Contributing
 
@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 * Git
 ```
 
+### Developing
 ```
 $ git clone git@github.com:Pham-Gia-Huong/html-to-canvas.git
 $ cd html-to-canvas

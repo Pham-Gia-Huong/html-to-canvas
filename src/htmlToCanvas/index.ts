@@ -1,10 +1,11 @@
 import ContainerElement from './Element';
-let _bound: DOMRect;
-let _container: ContainerElement;
-let _option: CanvasOption;
 
 const _canvas = document.createElement('canvas') as HTMLCanvasElement;
 const _context = _canvas.getContext('2d') as CanvasRenderingContext2D;
+
+let _bound: DOMRect;
+let _container: ContainerElement;
+let _option: CanvasOption;
 
 function _createCanvas() {
   _canvas.width = Math.floor(_bound.width * window.devicePixelRatio);
